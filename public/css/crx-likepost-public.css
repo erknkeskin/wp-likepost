@@ -1,0 +1,79 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ @import "../font-awesome/css/font-awesome.min.css";
+
+.crx-like-button {
+    display: inline-block;
+    z-index: 100;
+    position: absolute;
+    left:-35px;
+    top:20px;
+    cursor:pointer;
+    -webkit-transition: all 200ms ease-out;
+    -moz-transition: all 200ms ease-out;
+    -o-transition: all 200ms ease-out;
+    transition: all 200ms ease-out;
+    font-weight: 400;
+}
+
+.crx-like-button:hover {
+  opacity: .7;
+}
+
+.crx-like-button i {
+  color:#2e98fc;
+  font-size: 26px;
+}
+
+.like-count-notification {
+  color:white;
+  background-color:#2e98fc;
+  display:block;
+  position: absolute;
+  top:20px;
+  left: -75px;
+  height:30px;
+  width:30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 12px;
+}
+
+.crx-list {
+  position: relative;
+}
+
+.crx-list ul {
+  margin:0px;
+  padding: 0px;
+}
+
+.crx-list ul li {
+  list-style: none;
+  height:50px;
+  line-height: 50px;
+}
+
+.crx-list ul li i {
+  font-size: 30px;
+}
+
+.crx-list ul li a {
+  font-size: 26px;
+}
+
+.crx-list ul li a span {
+  color:red;
+}
+
+.crx-widget-list {
+  position: relative;
+}
+
+.crx-widget-list ul li a span {
+  color:red;
+}
