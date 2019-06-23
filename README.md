@@ -1,4 +1,4 @@
-<p>=== Plugin Name ===<br>
+<p>=== CRX Likepost ===<br>
   
 Contributors: Erkan Keskin<br>
 Author link: <a href="https://erkankeskin.com.tr">https://erkankeskin.com.tr</a><br>
